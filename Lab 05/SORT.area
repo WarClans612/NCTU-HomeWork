@@ -1,0 +1,24 @@
+ 
+****************************************
+Report : area
+Design : SORT
+Version: B-2008.09-SP2
+Date   : Thu Nov 17 20:57:32 2016
+****************************************
+
+Library(s) Used:
+
+    slow (File: /cad/CBDLIB/CBDK_IC_Contest_v2.1/SynopsysDC/db/slow.db)
+
+Number of ports:               18
+Number of nets:               568
+Number of cells:              459
+Number of references:          46
+
+Combinational area:       3104.544594
+Noncombinational area:    3890.440762
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:          6994.985356
+Total area:                 undefined
+1

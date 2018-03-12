@@ -1,0 +1,49 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : SORT
+Version: B-2008.09-SP2
+Date   : Thu Nov 17 20:57:32 2016
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: op[0] (input port clocked by clk)
+  Endpoint: sorted_reg[1][1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     2.00       2.00 r
+  op[0] (in)                               0.00       2.00 r
+  U485/Y (NAND3BX4)                        0.16       2.16 r
+  U343/Y (INVX6)                           0.14       2.31 f
+  U369/Y (NOR3X2)                          0.16       2.47 r
+  U356/Y (NAND2X1)                         0.13       2.60 f
+  U297/Y (CLKINVX1)                        0.47       3.07 r
+  U604/Y (AOI222XL)                        0.25       3.33 f
+  sorted_reg[1][1]/D (EDFFX1)              0.00       3.33 f
+  data arrival time                                   3.33
+
+  clock clk (rise edge)                    4.00       4.00
+  clock network delay (ideal)              0.00       4.00
+  sorted_reg[1][1]/CK (EDFFX1)             0.00       4.00 r
+  library setup time                      -0.66       3.34
+  data required time                                  3.34
+  -----------------------------------------------------------
+  data required time                                  3.34
+  data arrival time                                  -3.33
+  -----------------------------------------------------------
+  slack (MET)                                         0.02
+
+
+1
