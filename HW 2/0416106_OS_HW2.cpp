@@ -1,3 +1,6 @@
+//There are some cases which leads to infinite loop in SRTF function
+//due to lack of one empty checking of a class in the 'time' unit 'for' loop
+
 #include<iostream>
 #include<queue>
 #include<iterator>
