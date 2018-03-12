@@ -1,0 +1,190 @@
+C:/Modeltech_pe_edu_10.4a/examples/Forwarding_Unit.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/Forwarding_Unit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Forwarding_Unit
+
+Top level modules:
+	Forwarding_Unit
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/Mux4to1.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/Mux4to1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux4to1
+
+Top level modules:
+	Mux4to1
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/ALU.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/ALU.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/Data_Memory.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/Data_Memory.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Data_Memory
+
+Top level modules:
+	Data_Memory
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/Full_adder.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/Full_adder.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Full_adder
+
+Top level modules:
+	Full_adder
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/MEM_WB_register.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/MEM_WB_register.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module MEM_WB_register
+
+Top level modules:
+	MEM_WB_register
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/Pipeline_CPU.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/Pipeline_CPU.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Pipeline_CPU
+
+Top level modules:
+	Pipeline_CPU
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/ID_EX_register.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/ID_EX_register.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ID_EX_register
+
+Top level modules:
+	ID_EX_register
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/Reg_File.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/Reg_File.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Reg_File
+
+Top level modules:
+	Reg_File
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/Hazard_Detection_Unit.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/Hazard_Detection_Unit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Hazard_Detection_Unit
+
+Top level modules:
+	Hazard_Detection_Unit
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/EX_MEM_register.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/EX_MEM_register.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module EX_MEM_register
+
+Top level modules:
+	EX_MEM_register
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/IF_ID_register.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/IF_ID_register.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module IF_ID_register
+
+Top level modules:
+	IF_ID_register
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/Zero_Filled.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/Zero_Filled.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Zero_Filled
+
+Top level modules:
+	Zero_Filled
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/TestBench.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/TestBench.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module TestBench
+
+Top level modules:
+	TestBench
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/Adder.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/Adder.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/Instr_Memory.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/Instr_Memory.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Instr_Memory
+
+Top level modules:
+	Instr_Memory
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/Sign_Extend.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/Sign_Extend.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Sign_Extend
+
+Top level modules:
+	Sign_Extend
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/Jump_address.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/Jump_address.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Jump_address
+
+Top level modules:
+	Jump_address
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/Mux3to1.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/Mux3to1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux3to1
+
+Top level modules:
+	Mux3to1
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/ALU_bit31.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/ALU_bit31.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALU_bit31
+
+Top level modules:
+	ALU_bit31
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/Shifter.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/Shifter.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Shifter
+
+Top level modules:
+	Shifter
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/Decoder.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/Decoder.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Decoder
+
+Top level modules:
+	Decoder
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/ALU_Ctrl.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/ALU_Ctrl.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALU_Ctrl
+
+Top level modules:
+	ALU_Ctrl
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/Program_Counter.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/Program_Counter.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Program_Counter
+
+Top level modules:
+	Program_Counter
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/Mux2to1.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/Mux2to1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux2to1
+
+Top level modules:
+	Mux2to1
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/ALU_1bit.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/ALU_1bit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALU_1bit
+
+Top level modules:
+	ALU_1bit
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/Shift_left_2.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/Shift_left_2.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Shift_left_2
+
+Top level modules:
+	Shift_left_2
+
+} {} {}}

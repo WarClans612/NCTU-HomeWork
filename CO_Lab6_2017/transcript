@@ -1,0 +1,595 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# Loading project lab6
+# Compile of Zero_Filled.v was successful.
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_bit31.v was successful.
+# Compile of ALU_Ctrl.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Decoder.v was successful.
+# Compile of EX_MEM_register.v was successful.
+# Compile of Full_adder.v was successful.
+# Compile of ID_EX_register.v was successful.
+# Compile of IF_ID_register.v was successful.
+# Compile of Instr_Memory.v was successful.
+# Compile of Jump_address.v was successful.
+# Compile of MEM_WB_register.v was successful.
+# Compile of Mux2to1.v was successful.
+# Compile of Mux3to1.v was successful.
+# Compile of Mux4to1.v was successful.
+# Compile of Pipeline_CPU.v was successful.
+# Compile of Program_Counter.v was successful.
+# Compile of Reg_File.v was successful.
+# Compile of Shift_left_2.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of TestBench.v was successful.
+# Compile of Forwarding_Unit.v was successful.
+# Compile of Hazard_Detection_Unit.v was successful.
+# 27 compiles, 0 failed with no errors.
+vsim work.TestBench
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 23:12:07 on Jun 01,2017
+# Loading work.TestBench
+# Loading work.Pipeline_CPU
+# Loading work.Program_Counter
+# Loading work.Adder
+# Loading work.IF_ID_register
+# Loading work.Jump_address
+# Loading work.Shift_left_2
+# Loading work.Mux2to1
+# Loading work.Instr_Memory
+# Loading work.Reg_File
+# Loading work.Decoder
+# Loading work.ALU_Ctrl
+# Loading work.Sign_Extend
+# Loading work.Zero_Filled
+# Loading work.Mux3to1
+# Loading work.ALU
+# Loading work.ALU_1bit
+# Loading work.Full_adder
+# Loading work.ALU_bit31
+# Loading work.Mux4to1
+# Loading work.Shifter
+# Loading work.Data_Memory
+# Loading work.ID_EX_register
+# Loading work.EX_MEM_register
+# Loading work.MEM_WB_register
+# Loading work.Forwarding_Unit
+# Loading work.Hazard_Detection_Unit
+add wave sim:/TestBench/*
+add wave -r /*
+restart
+run -all
+# Register===========================================================
+# 
+# r0=0, r1=10, r2=3, r3=8, r4=8, r5=10, r6=7, r7=23
+#  
+# r8=3, r9=11, r10=0, r11=0, r12=0, r13=0, r14=0, r15=0
+#  
+# r16=0, r17=0, r18=0, r19=0, r20=0, r21=0, r22=0, r23=0
+#  
+# r24=0, r25=0, r26=0, r27=0, r28=0, r29=128, r30=0, r31=0
+#  
+# 
+# Memory===========================================================
+# 
+# m0=0, m1=10, m2=0, m3=0, m4=0, m5=0, m6=0, m7=0
+# 
+# m8=0, m9=0, m10=0, m11=0, m12=0, m13=0, m14=0, m15=0
+# 
+# r16=0, m17=0, m18=0, m19=0, m20=0, m21=0, m22=0, m23=0
+# 
+# m24=0, m25=0, m26=0, m27=0, m28=0, m29=0, m30=0, m31=0
+# ** Note: $stop    : C:/Modeltech_pe_edu_10.4a/examples/TestBench.v(73)
+#    Time: 310 ns  Iteration: 0  Instance: /TestBench
+# Break in Module TestBench at C:/Modeltech_pe_edu_10.4a/examples/TestBench.v line 73
+# Compile of Zero_Filled.v was successful.
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_bit31.v was successful.
+# Compile of ALU_Ctrl.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Decoder.v was successful.
+# Compile of EX_MEM_register.v was successful.
+# Compile of Full_adder.v was successful.
+# Compile of ID_EX_register.v was successful.
+# Compile of IF_ID_register.v was successful.
+# Compile of Instr_Memory.v was successful.
+# Compile of Jump_address.v was successful.
+# Compile of MEM_WB_register.v was successful.
+# Compile of Mux2to1.v was successful.
+# Compile of Mux3to1.v was successful.
+# Compile of Mux4to1.v was successful.
+# Compile of Pipeline_CPU.v was successful.
+# Compile of Program_Counter.v was successful.
+# Compile of Reg_File.v was successful.
+# Compile of Shift_left_2.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of TestBench.v was successful.
+# Compile of Forwarding_Unit.v was successful.
+# Compile of Hazard_Detection_Unit.v was successful.
+# 27 compiles, 0 failed with no errors.
+restart
+# Loading work.TestBench
+# Loading work.Pipeline_CPU
+# Loading work.Program_Counter
+# Loading work.Adder
+# Loading work.IF_ID_register
+# Loading work.Jump_address
+# Loading work.Shift_left_2
+# Loading work.Mux2to1
+# Loading work.Instr_Memory
+# Loading work.Reg_File
+# Loading work.Decoder
+# Loading work.ALU_Ctrl
+# Loading work.Sign_Extend
+# Loading work.Zero_Filled
+# Loading work.Mux3to1
+# Loading work.ALU
+# Loading work.ALU_1bit
+# Loading work.Full_adder
+# Loading work.ALU_bit31
+# Loading work.Mux4to1
+# Loading work.Shifter
+# Loading work.Data_Memory
+# Loading work.ID_EX_register
+# Loading work.EX_MEM_register
+# Loading work.MEM_WB_register
+# Loading work.Forwarding_Unit
+# Loading work.Hazard_Detection_Unit
+# Warning in wave window restart: (vish-4014) No objects found matching '/TestBench/cpu/instr_r3'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/TestBench/cpu/instr_r4'. 
+run -all
+# Register===========================================================
+# 
+# r0=0, r1=10, r2=3, r3=8, r4=8, r5=10, r6=7, r7=23
+#  
+# r8=3, r9=11, r10=0, r11=0, r12=0, r13=0, r14=0, r15=0
+#  
+# r16=0, r17=0, r18=0, r19=0, r20=0, r21=0, r22=0, r23=0
+#  
+# r24=0, r25=0, r26=0, r27=0, r28=0, r29=128, r30=0, r31=0
+#  
+# 
+# Memory===========================================================
+# 
+# m0=0, m1=10, m2=0, m3=0, m4=0, m5=0, m6=0, m7=0
+# 
+# m8=0, m9=0, m10=0, m11=0, m12=0, m13=0, m14=0, m15=0
+# 
+# r16=0, m17=0, m18=0, m19=0, m20=0, m21=0, m22=0, m23=0
+# 
+# m24=0, m25=0, m26=0, m27=0, m28=0, m29=0, m30=0, m31=0
+# ** Note: $stop    : C:/Modeltech_pe_edu_10.4a/examples/TestBench.v(73)
+#    Time: 310 ns  Iteration: 0  Instance: /TestBench
+# Break in Module TestBench at C:/Modeltech_pe_edu_10.4a/examples/TestBench.v line 73
+# Compile of Zero_Filled.v was successful.
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_bit31.v was successful.
+# Compile of ALU_Ctrl.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Decoder.v was successful.
+# Compile of EX_MEM_register.v was successful.
+# Compile of Full_adder.v was successful.
+# Compile of ID_EX_register.v failed with 2 errors.
+# Compile of IF_ID_register.v was successful.
+# Compile of Instr_Memory.v was successful.
+# Compile of Jump_address.v was successful.
+# Compile of MEM_WB_register.v was successful.
+# Compile of Mux2to1.v was successful.
+# Compile of Mux3to1.v was successful.
+# Compile of Mux4to1.v was successful.
+# Compile of Pipeline_CPU.v was successful.
+# Compile of Program_Counter.v was successful.
+# Compile of Reg_File.v was successful.
+# Compile of Shift_left_2.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of TestBench.v was successful.
+# Compile of Forwarding_Unit.v was successful.
+# Compile of Hazard_Detection_Unit.v was successful.
+# 27 compiles, 1 failed with 2 errors.
+# Compile of Zero_Filled.v was successful.
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_bit31.v was successful.
+# Compile of ALU_Ctrl.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Decoder.v was successful.
+# Compile of EX_MEM_register.v was successful.
+# Compile of Full_adder.v was successful.
+# Compile of ID_EX_register.v was successful.
+# Compile of IF_ID_register.v was successful.
+# Compile of Instr_Memory.v was successful.
+# Compile of Jump_address.v was successful.
+# Compile of MEM_WB_register.v was successful.
+# Compile of Mux2to1.v was successful.
+# Compile of Mux3to1.v was successful.
+# Compile of Mux4to1.v was successful.
+# Compile of Pipeline_CPU.v was successful.
+# Compile of Program_Counter.v was successful.
+# Compile of Reg_File.v was successful.
+# Compile of Shift_left_2.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of TestBench.v was successful.
+# Compile of Forwarding_Unit.v was successful.
+# Compile of Hazard_Detection_Unit.v was successful.
+# 27 compiles, 0 failed with no errors.
+# Compile of Zero_Filled.v was successful.
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_bit31.v was successful.
+# Compile of ALU_Ctrl.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Decoder.v was successful.
+# Compile of EX_MEM_register.v was successful.
+# Compile of Full_adder.v was successful.
+# Compile of ID_EX_register.v was successful.
+# Compile of IF_ID_register.v was successful.
+# Compile of Instr_Memory.v was successful.
+# Compile of Jump_address.v was successful.
+# Compile of MEM_WB_register.v was successful.
+# Compile of Mux2to1.v was successful.
+# Compile of Mux3to1.v was successful.
+# Compile of Mux4to1.v was successful.
+# Compile of Pipeline_CPU.v was successful.
+# Compile of Program_Counter.v was successful.
+# Compile of Reg_File.v was successful.
+# Compile of Shift_left_2.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of TestBench.v was successful.
+# Compile of Forwarding_Unit.v was successful.
+# Compile of Hazard_Detection_Unit.v failed with 4 errors.
+# 27 compiles, 1 failed with 4 errors.
+# Compile of Zero_Filled.v was successful.
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_bit31.v was successful.
+# Compile of ALU_Ctrl.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Decoder.v was successful.
+# Compile of EX_MEM_register.v was successful.
+# Compile of Full_adder.v was successful.
+# Compile of ID_EX_register.v was successful.
+# Compile of IF_ID_register.v was successful.
+# Compile of Instr_Memory.v was successful.
+# Compile of Jump_address.v was successful.
+# Compile of MEM_WB_register.v was successful.
+# Compile of Mux2to1.v was successful.
+# Compile of Mux3to1.v was successful.
+# Compile of Mux4to1.v was successful.
+# Compile of Pipeline_CPU.v was successful.
+# Compile of Program_Counter.v was successful.
+# Compile of Reg_File.v was successful.
+# Compile of Shift_left_2.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of TestBench.v was successful.
+# Compile of Forwarding_Unit.v was successful.
+# Compile of Hazard_Detection_Unit.v was successful.
+# 27 compiles, 0 failed with no errors.
+restart
+# Loading work.TestBench
+# Loading work.Pipeline_CPU
+# Loading work.Program_Counter
+# Loading work.Adder
+# Loading work.IF_ID_register
+# Loading work.Jump_address
+# Loading work.Shift_left_2
+# Loading work.Mux2to1
+# Loading work.Instr_Memory
+# Loading work.Reg_File
+# Loading work.Decoder
+# Loading work.ALU_Ctrl
+# Loading work.Sign_Extend
+# Loading work.Zero_Filled
+# Loading work.Mux3to1
+# Loading work.ALU
+# Loading work.ALU_1bit
+# Loading work.Full_adder
+# Loading work.ALU_bit31
+# Loading work.Mux4to1
+# Loading work.Shifter
+# Loading work.Data_Memory
+# Loading work.ID_EX_register
+# Loading work.EX_MEM_register
+# Loading work.MEM_WB_register
+# Loading work.Forwarding_Unit
+# Loading work.Hazard_Detection_Unit
+# Warning in wave window restart: (vish-4014) No objects found matching '/TestBench/cpu/Flush_ID_EX'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/TestBench/cpu/Decoder/Flush_ID_EX'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/TestBench/cpu/HUnit/Flush_ID_EX'. 
+run -all
+# Register===========================================================
+# 
+# r0=0, r1=10, r2=3, r3=8, r4=8, r5=10, r6=7, r7=23
+#  
+# r8=3, r9=11, r10=0, r11=0, r12=0, r13=0, r14=0, r15=0
+#  
+# r16=0, r17=0, r18=0, r19=0, r20=0, r21=0, r22=0, r23=0
+#  
+# r24=0, r25=0, r26=0, r27=0, r28=0, r29=128, r30=0, r31=0
+#  
+# 
+# Memory===========================================================
+# 
+# m0=0, m1=10, m2=0, m3=0, m4=0, m5=0, m6=0, m7=0
+# 
+# m8=0, m9=0, m10=0, m11=0, m12=0, m13=0, m14=0, m15=0
+# 
+# r16=0, m17=0, m18=0, m19=0, m20=0, m21=0, m22=0, m23=0
+# 
+# m24=0, m25=0, m26=0, m27=0, m28=0, m29=0, m30=0, m31=0
+# ** Note: $stop    : C:/Modeltech_pe_edu_10.4a/examples/TestBench.v(73)
+#    Time: 310 ns  Iteration: 0  Instance: /TestBench
+# Break in Module TestBench at C:/Modeltech_pe_edu_10.4a/examples/TestBench.v line 73
+# Compile of Zero_Filled.v was successful.
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_bit31.v was successful.
+# Compile of ALU_Ctrl.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Decoder.v was successful.
+# Compile of EX_MEM_register.v was successful.
+# Compile of Full_adder.v was successful.
+# Compile of ID_EX_register.v was successful.
+# Compile of IF_ID_register.v was successful.
+# Compile of Instr_Memory.v was successful.
+# Compile of Jump_address.v was successful.
+# Compile of MEM_WB_register.v was successful.
+# Compile of Mux2to1.v was successful.
+# Compile of Mux3to1.v was successful.
+# Compile of Mux4to1.v was successful.
+# Compile of Pipeline_CPU.v was successful.
+# Compile of Program_Counter.v was successful.
+# Compile of Reg_File.v was successful.
+# Compile of Shift_left_2.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of TestBench.v was successful.
+# Compile of Forwarding_Unit.v was successful.
+# Compile of Hazard_Detection_Unit.v was successful.
+# 27 compiles, 0 failed with no errors.
+restart
+# Loading work.TestBench
+# Loading work.Pipeline_CPU
+# Loading work.Program_Counter
+# Loading work.Adder
+# Loading work.IF_ID_register
+# Loading work.Jump_address
+# Loading work.Shift_left_2
+# Loading work.Mux2to1
+# Loading work.Instr_Memory
+# Loading work.Reg_File
+# Loading work.Decoder
+# Loading work.ALU_Ctrl
+# Loading work.Sign_Extend
+# Loading work.Zero_Filled
+# Loading work.Mux3to1
+# Loading work.ALU
+# Loading work.ALU_1bit
+# Loading work.Full_adder
+# Loading work.ALU_bit31
+# Loading work.Mux4to1
+# Loading work.Shifter
+# Loading work.Data_Memory
+# Loading work.ID_EX_register
+# Loading work.EX_MEM_register
+# Loading work.MEM_WB_register
+# Loading work.Forwarding_Unit
+# Loading work.Hazard_Detection_Unit
+run -all
+# Register===========================================================
+# 
+# r0=0, r1=5, r2=5, r3=2, r4=4, r5=-1, r6=2, r7=0
+#  
+# r8=-3, r9=0, r10=0, r11=0, r12=0, r13=0, r14=0, r15=0
+#  
+# r16=0, r17=0, r18=0, r19=0, r20=0, r21=0, r22=0, r23=0
+#  
+# r24=0, r25=0, r26=0, r27=0, r28=0, r29=128, r30=0, r31=0
+#  
+# 
+# Memory===========================================================
+# 
+# m0=0, m1=2, m2=0, m3=0, m4=0, m5=0, m6=0, m7=0
+# 
+# m8=0, m9=0, m10=0, m11=0, m12=0, m13=0, m14=0, m15=0
+# 
+# r16=0, m17=0, m18=0, m19=0, m20=0, m21=0, m22=0, m23=0
+# 
+# m24=0, m25=0, m26=0, m27=0, m28=0, m29=0, m30=0, m31=0
+# ** Note: $stop    : C:/Modeltech_pe_edu_10.4a/examples/TestBench.v(73)
+#    Time: 310 ns  Iteration: 0  Instance: /TestBench
+# Break in Module TestBench at C:/Modeltech_pe_edu_10.4a/examples/TestBench.v line 73
+# Compile of Zero_Filled.v was successful.
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_bit31.v was successful.
+# Compile of ALU_Ctrl.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Decoder.v was successful.
+# Compile of EX_MEM_register.v was successful.
+# Compile of Full_adder.v was successful.
+# Compile of ID_EX_register.v was successful.
+# Compile of IF_ID_register.v was successful.
+# Compile of Instr_Memory.v was successful.
+# Compile of Jump_address.v was successful.
+# Compile of MEM_WB_register.v was successful.
+# Compile of Mux2to1.v was successful.
+# Compile of Mux3to1.v was successful.
+# Compile of Mux4to1.v was successful.
+# Compile of Pipeline_CPU.v was successful.
+# Compile of Program_Counter.v was successful.
+# Compile of Reg_File.v was successful.
+# Compile of Shift_left_2.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of TestBench.v was successful.
+# Compile of Forwarding_Unit.v was successful.
+# Compile of Hazard_Detection_Unit.v was successful.
+# 27 compiles, 0 failed with no errors.
+restart
+# Loading work.TestBench
+# Loading work.Pipeline_CPU
+# Loading work.Program_Counter
+# Loading work.Adder
+# Loading work.IF_ID_register
+# Loading work.Jump_address
+# Loading work.Shift_left_2
+# Loading work.Mux2to1
+# Loading work.Instr_Memory
+# Loading work.Reg_File
+# Loading work.Decoder
+# Loading work.ALU_Ctrl
+# Loading work.Sign_Extend
+# Loading work.Zero_Filled
+# Loading work.Mux3to1
+# Loading work.ALU
+# Loading work.ALU_1bit
+# Loading work.Full_adder
+# Loading work.ALU_bit31
+# Loading work.Mux4to1
+# Loading work.Shifter
+# Loading work.Data_Memory
+# Loading work.ID_EX_register
+# Loading work.EX_MEM_register
+# Loading work.MEM_WB_register
+# Loading work.Forwarding_Unit
+# Loading work.Hazard_Detection_Unit
+run -all
+# Register===========================================================
+# 
+# r0=0, r1=5, r2=5, r3=2, r4=4, r5=-1, r6=2, r7=0
+#  
+# r8=-3, r9=0, r10=0, r11=0, r12=0, r13=0, r14=0, r15=0
+#  
+# r16=0, r17=0, r18=0, r19=0, r20=0, r21=0, r22=0, r23=0
+#  
+# r24=0, r25=0, r26=0, r27=0, r28=0, r29=128, r30=0, r31=0
+#  
+# 
+# Memory===========================================================
+# 
+# m0=0, m1=0, m2=0, m3=0, m4=0, m5=0, m6=0, m7=0
+# 
+# m8=0, m9=0, m10=0, m11=0, m12=0, m13=0, m14=0, m15=0
+# 
+# r16=0, m17=0, m18=0, m19=0, m20=0, m21=0, m22=0, m23=0
+# 
+# m24=0, m25=0, m26=0, m27=0, m28=0, m29=0, m30=0, m31=0
+# ** Note: $stop    : C:/Modeltech_pe_edu_10.4a/examples/TestBench.v(73)
+#    Time: 310 ns  Iteration: 0  Instance: /TestBench
+# Break in Module TestBench at C:/Modeltech_pe_edu_10.4a/examples/TestBench.v line 73
+# Compile of Zero_Filled.v was successful.
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALU_1bit.v was successful.
+# Compile of ALU_bit31.v was successful.
+# Compile of ALU_Ctrl.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Decoder.v was successful.
+# Compile of EX_MEM_register.v was successful.
+# Compile of Full_adder.v was successful.
+# Compile of ID_EX_register.v was successful.
+# Compile of IF_ID_register.v was successful.
+# Compile of Instr_Memory.v was successful.
+# Compile of Jump_address.v was successful.
+# Compile of MEM_WB_register.v was successful.
+# Compile of Mux2to1.v was successful.
+# Compile of Mux3to1.v was successful.
+# Compile of Mux4to1.v was successful.
+# Compile of Pipeline_CPU.v was successful.
+# Compile of Program_Counter.v was successful.
+# Compile of Reg_File.v was successful.
+# Compile of Shift_left_2.v was successful.
+# Compile of Shifter.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of TestBench.v was successful.
+# Compile of Forwarding_Unit.v was successful.
+# Compile of Hazard_Detection_Unit.v was successful.
+# 27 compiles, 0 failed with no errors.
+restart
+# Loading work.TestBench
+# Loading work.Pipeline_CPU
+# Loading work.Program_Counter
+# Loading work.Adder
+# Loading work.IF_ID_register
+# Loading work.Jump_address
+# Loading work.Shift_left_2
+# Loading work.Mux2to1
+# Loading work.Instr_Memory
+# Loading work.Reg_File
+# Loading work.Decoder
+# Loading work.ALU_Ctrl
+# Loading work.Sign_Extend
+# Loading work.Zero_Filled
+# Loading work.Mux3to1
+# Loading work.ALU
+# Loading work.ALU_1bit
+# Loading work.Full_adder
+# Loading work.ALU_bit31
+# Loading work.Mux4to1
+# Loading work.Shifter
+# Loading work.Data_Memory
+# Loading work.ID_EX_register
+# Loading work.EX_MEM_register
+# Loading work.MEM_WB_register
+# Loading work.Forwarding_Unit
+# Loading work.Hazard_Detection_Unit
+run -all
+# Register===========================================================
+# 
+# r0=0, r1=1, r2=2, r3=3, r4=4, r5=5, r6=1, r7=2
+#  
+# r8=4, r9=2, r10=0, r11=0, r12=0, r13=0, r14=0, r15=0
+#  
+# r16=0, r17=0, r18=0, r19=0, r20=0, r21=0, r22=0, r23=0
+#  
+# r24=0, r25=0, r26=0, r27=0, r28=0, r29=128, r30=0, r31=0
+#  
+# 
+# Memory===========================================================
+# 
+# m0=1, m1=2, m2=0, m3=0, m4=0, m5=0, m6=0, m7=0
+# 
+# m8=0, m9=0, m10=0, m11=0, m12=0, m13=0, m14=0, m15=0
+# 
+# r16=0, m17=0, m18=0, m19=0, m20=0, m21=0, m22=0, m23=0
+# 
+# m24=0, m25=0, m26=0, m27=0, m28=0, m29=0, m30=0, m31=0
+# ** Note: $stop    : C:/Modeltech_pe_edu_10.4a/examples/TestBench.v(73)
+#    Time: 310 ns  Iteration: 0  Instance: /TestBench
+# Break in Module TestBench at C:/Modeltech_pe_edu_10.4a/examples/TestBench.v line 73
+quit -sim
