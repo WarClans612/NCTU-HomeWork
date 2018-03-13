@@ -1,0 +1,8 @@
+Project Assignment 4
+Name: 彭敬樺			Student ID: 0416106
+In this assignment, additional rule is added to detect error and print the message without stopping the parsing process.
+There are no change in the scanner file from the previous assignment.
+Difference of parser from the third assignment is the addition error checking rule.
+The platform to run the parser is in linux(linux operating system).
+The command to compile all the needed file is 'make' and the command "./parser filename" to run the parser towards an input file.
+The parser has the abilities to parse 'P' Language, detect syntactic error and sematic error in this stage.
