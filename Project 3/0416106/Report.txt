@@ -1,0 +1,8 @@
+Project Assignment 3
+Name: 彭敬樺			Student ID: 0416106
+In this assignment, symbol table is being implemented to correspond to the result of the parser.
+Difference of scanner from the second assignment is the addition of return value for yylval.
+Difference of parser from the second is the addition of union declaration and the C code for symbol table construction.
+The platform to run the parser is in linux(linux operating system).
+The command to compile all the needed file is 'make' and the command "./parser filename" to run the parser towards an input file.
+The parser has the abilities to parse 'P' Language without the capability to determine the correctness of semantics of the language, only syntactic error and some redeclaration problem can be detected in this stage.
