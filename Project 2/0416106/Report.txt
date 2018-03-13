@@ -1,0 +1,7 @@
+Project Assignment 2
+Name: 彭敬樺			Student ID: 0416106
+In this assignment, parser is implemented and combined with the revised scanner from the first assignment.
+Difference of scanner from the first assignment is the separation of rule for each token which is not implemented in the first scanner. The second addition is the appearance of return value for each token that need to be returned to the parser. The third is the main function is scanner file has been deleted.
+The platform to run the parser is in bsd(linux operating system).
+The command to compile all the needed file is 'make' and the command "./parser filename" to run the parser towards an input file.
+The parser has the abilities to parse 'P' Language without the capability to determine the correctness of semantics of the language, only syntactic error can be detected in this stage.
