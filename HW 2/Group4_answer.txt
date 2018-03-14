@@ -1,0 +1,61 @@
+Answer for number 1
+Player Count
+------------
+11060       
+Answer for number 2
+Match Count
+-----------
+13036      
+Answer for number 3
+Number of Player
+----------------
+643             
+Answer for number 4
+Total Count
+-----------
+1          
+Name        API ID      Average Heading Accuracy
+----------  ----------  ------------------------
+Tim Cahill  30876       93.1111111111111        
+Answer for number 5
+Average Ball Control
+--------------------
+63.3888785750947    
+Answer for number 6
+Low Bound   High Bound
+----------  ----------
+1           95        
+Answer for number 7
+Higher Rating
+-------------
+Left         
+Answer for number 8
+Total Count
+-----------
+1          
+Player Name
+-----------
+Neymar     
+Answer for number 9
+Total Count
+-----------
+57         
+Team Name 
+----------
+TUB       
+FEI       
+EUP       
+MAD       
+GAJ       
+ZWO       
+LEI       
+GAE       
+BEL       
+PEN       
+Answer for number 10
+Winning Count  Team API ID  Home Team Name
+-------------  -----------  --------------
+131            8634         BAR           
+Winning Count  Team API ID  Away Team Name
+-------------  -----------  --------------
+103            8634         BAR           

@@ -1,0 +1,16 @@
+.open database.sqlite
+.header on
+.mode column
+.timer on
+
+select max(maxi)
+	from (select avg(potential) as maxi
+	from player_attributes
+	group by player_api_id);
+	
+select player_api_id
+from
+	(select max(maxi) as maximum
+	from (select avg(potential) as maxi
+	from player_attributes
+	group by player_api_id)) cross join player_attributes;

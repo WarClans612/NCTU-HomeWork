@@ -1,0 +1,188 @@
+.open database.sqlite
+.header on
+.mode column
+.timer on
+
+----------------------------------------------------------------------------------
+.print 'Answer for number 1'
+select count(*) as 'Player Count'
+from player;
+----------------------------------------------------------------------------------
+.print 'Answer for number 2'
+select count(season) as 'Match Count'
+from match
+where season between '2008/2009' and '2011/2012';
+----------------------------------------------------------------------------------
+.print 'Answer for number 3'
+select count(birthday) as 'Number of Player'
+from player
+where birthday like '1992%';
+----------------------------------------------------------------------------------
+.print 'Answer for number 4'
+select count(avgg) as 'Total Count'
+from 
+	((select avg(heading_accuracy) as avgg, player_api_id, player_fifa_api_id
+	from player_attributes
+	group by player_api_id, player_fifa_api_id) as ans
+	inner join
+	player
+	on (ans.player_api_id = player.player_api_id
+		and ans.player_fifa_api_id = player.player_fifa_api_id))
+where avgg = 
+	(select max(ave)
+	from 
+		(select avg(heading_accuracy) as ave
+		from player_attributes
+		group by player_api_id, player_fifa_api_id));
+
+select player.player_name as 'Name', player.player_api_id as 'API ID', avgg as 'Average Heading Accuracy'
+from 
+	((select avg(heading_accuracy) as avgg, player_api_id, player_fifa_api_id
+	from player_attributes
+	group by player_api_id, player_fifa_api_id) as ans
+	inner join
+	player
+	on (ans.player_api_id = player.player_api_id
+		and ans.player_fifa_api_id = player.player_fifa_api_id))
+where avgg = 
+	(select max(ave)
+	from 
+		(select avg(heading_accuracy) as ave
+		from player_attributes
+		group by player_api_id, player_fifa_api_id))
+limit 10;
+----------------------------------------------------------------------------------
+.print 'Answer for number 5'
+select avg(ball_control) as 'Average Ball Control'
+from player_attributes;
+----------------------------------------------------------------------------------
+.print 'Answer for number 6'
+select min(crossing) as 'Low Bound', max(crossing) as 'High Bound'
+from player_attributes
+where attacking_work_rate = 'medium';
+----------------------------------------------------------------------------------
+.print 'Answer for number 7'
+select case
+when right > left then 'Right'
+when right < left then 'Left'
+else 'Left and Right has the same overall rating'
+end 'Higher Rating'
+from (select avg(overall_rating) as right
+from player_attributes
+where preferred_foot = 'right') left outer join
+(select avg(overall_rating) as left
+from player_attributes
+where preferred_foot = 'left');
+----------------------------------------------------------------------------------
+.print 'Answer for number 8'
+select count(*) as 'Total Count'
+from (select avg(potential) as potent
+	from
+		(select player_api_id, player_fifa_api_id
+		from player
+		where birthday > '1992') as temp1
+		inner join
+		(select player_api_id, player_fifa_api_id, potential
+		from player_attributes) as temp2
+		on (temp1.player_api_id = temp2.player_api_id
+		and temp1.player_fifa_api_id = temp2.player_fifa_api_id)
+	group by temp1.player_api_id, temp1.player_fifa_api_id)
+where potent = 
+	(select max(potent)
+	from
+		(select avg(potential) as potent
+		from
+			(select player_api_id, player_fifa_api_id
+			from player
+			where birthday > '1992') as temp1
+			inner join
+			(select player_api_id, player_fifa_api_id, potential
+			from player_attributes) as temp2
+			on (temp1.player_api_id = temp2.player_api_id
+			and temp1.player_fifa_api_id = temp2.player_fifa_api_id)
+		group by temp1.player_api_id, temp1.player_fifa_api_id));
+
+select player_name as 'Player Name'
+from (select avg(potential) as potent, player_name
+	from
+		(select player_api_id, player_fifa_api_id, player_name
+		from player
+		where birthday > '1992') as temp1
+		inner join
+		(select player_api_id, player_fifa_api_id, potential
+		from player_attributes) as temp2
+		on (temp1.player_api_id = temp2.player_api_id
+		and temp1.player_fifa_api_id = temp2.player_fifa_api_id)
+	group by temp1.player_api_id, temp1.player_fifa_api_id)
+where potent = 
+	(select max(potent)
+	from
+		(select avg(potential) as potent
+		from
+			(select player_api_id, player_fifa_api_id
+			from player
+			where birthday > '1992') as temp1
+			inner join
+			(select player_api_id, player_fifa_api_id, potential
+			from player_attributes) as temp2
+			on (temp1.player_api_id = temp2.player_api_id
+			and temp1.player_fifa_api_id = temp2.player_fifa_api_id)
+		group by temp1.player_api_id, temp1.player_fifa_api_id));
+----------------------------------------------------------------------------------
+.print 'Answer for number 9'
+select count(ans) as 'Total Count'
+from	
+	(select team_api_id as ans
+	from team
+	except
+	select distinct(team_api_id)
+	from team_attributes
+	where date like '2012%');
+	
+select team_short_name as 'Team Name'
+from	
+	(select team_api_id as ans
+	from team
+	except
+	select distinct(team_api_id)
+	from team_attributes
+	where date like '2012%') as exception
+	inner join
+	team
+	on (exception.ans = team.team_api_id)
+limit 10;
+----------------------------------------------------------------------------------
+.print 'Answer for number 10'
+select counter as 'Winning Count', team_api_id as 'Team API ID', team_short_name as 'Home Team Name'
+from (select count(*) as counter, home_team_api_id
+	from match
+	where home_team_goal > away_team_goal
+	group by home_team_api_id)
+	inner join
+	(select team_api_id, team_short_name
+	from team)
+	on home_team_api_id = team_api_id
+where counter = 
+	(select max(number)
+	from
+		(select count(*) as number, home_team_api_id
+		from match
+		where home_team_goal > away_team_goal
+		group by home_team_api_id));
+		
+select counter as 'Winning Count', team_api_id as 'Team API ID', team_short_name as 'Away Team Name'
+from (select count(*) as counter, away_team_api_id
+	from match
+	where home_team_goal < away_team_goal
+	group by away_team_api_id)
+	inner join
+	(select team_api_id, team_short_name
+	from team)
+	on away_team_api_id = team_api_id
+where counter = 
+	(select max(number)
+	from
+		(select count(*) as number, away_team_api_id
+		from match
+		where home_team_goal < away_team_goal
+		group by away_team_api_id));
