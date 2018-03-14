@@ -1,0 +1,47 @@
+﻿Build started 4/8/2017 9:48:25 AM.
+     1>Project "D:\users\wingo\teaching\AssemblyLanguage\assignments\201702\asm_hw03_201702_OpenGL_template\C_ASM\C_ASM.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\C_ASM.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       _MASM:
+         Assembling [Inputs]...
+         cmd.exe /C "C:\Users\Wingo\AppData\Local\Temp\tmpd89a1061231f48a3ba21684bfc931630.cmd"
+         ml.exe /c /nologo /Zi /Fo"Release\asm.obj" /I "..\Irvine" /W3 /errorReport:prompt  /Taasm.asm
+     1>asm.asm(412): warning A6004: procedure argument or local not referenced : objID
+     1>asm.asm(438): warning A6004: procedure argument or local not referenced : x
+     1>asm.asm(450): warning A6004: procedure argument or local not referenced : y
+     1>asm.asm(450): warning A6004: procedure argument or local not referenced : objID
+     1>asm.asm(474): warning A6004: procedure argument or local not referenced : imageIndex
+     1>asm.asm(474): warning A6004: procedure argument or local not referenced : imagePtr
+     1>asm.asm(474): warning A6004: procedure argument or local not referenced : w
+     1>asm.asm(474): warning A6004: procedure argument or local not referenced : h
+     1>asm.asm(474): warning A6004: procedure argument or local not referenced : bytesPerPixel
+     1>asm.asm(506): warning A6004: procedure argument or local not referenced : imageIndex
+     1>asm.asm(506): warning A6004: procedure argument or local not referenced : ix
+     1>asm.asm(506): warning A6004: procedure argument or local not referenced : iy
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Irvine /I..\inc /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt image.cpp main.cpp "opengl_stuff .cpp" particle_system.cpp shape.cpp
+         image.cpp
+         main.cpp
+         opengl_stuff .cpp
+         particle_system.cpp
+         shape.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\users\wingo\teaching\AssemblyLanguage\assignments\201702\asm_hw03_201702_OpenGL_template\Release\C_ASM.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\Irvine /LIBPATH:..\lib /LIBPATH:..\lib\IL user32.lib irvine32.lib devil.lib ilu.lib ilut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\C_ASM.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\users\wingo\teaching\AssemblyLanguage\assignments\201702\asm_hw03_201702_OpenGL_template\Release\C_ASM.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"D:\users\wingo\teaching\AssemblyLanguage\assignments\201702\asm_hw03_201702_OpenGL_template\Release\C_ASM.lib" /MACHINE:X86 /SAFESEH:NO Release\image.obj
+         Release\main.obj
+         "Release\opengl_stuff .obj"
+         Release\particle_system.obj
+         Release\shape.obj
+         Release\asm.obj
+         Generating code
+         Finished generating code
+         C_ASM.vcxproj -> D:\users\wingo\teaching\AssemblyLanguage\assignments\201702\asm_hw03_201702_OpenGL_template\Release\C_ASM.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\users\wingo\teaching\AssemblyLanguage\assignments\201702\asm_hw03_201702_OpenGL_template\Release\C_ASM.exe;#1" /manifest Release\C_ASM.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\C_ASM.unsuccessfulbuild".
+         Touching "Release\C_ASM.lastbuildstate".
+     1>Done Building Project "D:\users\wingo\teaching\AssemblyLanguage\assignments\201702\asm_hw03_201702_OpenGL_template\C_ASM\C_ASM.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.79
