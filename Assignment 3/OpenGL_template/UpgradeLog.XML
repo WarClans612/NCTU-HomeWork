@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="C_ASM">
+</Property><Property Name="Solution File" Value="D:\users\wingo\teaching\AssemblyLanguage\project\project_2015\ASM_201402_OpenGL_ASM_Project_ImageProcessing_Final\C_ASM.sln">
+</Property><Property Name="User Options File" Value="D:\users\wingo\teaching\AssemblyLanguage\project\project_2015\ASM_201402_OpenGL_ASM_Project_ImageProcessing_Final\C_ASM.suo">
+</Property><Property Name="Date" Value="Tuesday, May 12, 2015">
+</Property><Property Name="Time" Value="9:18 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="C_ASM.sln" Description="File successfully backed up as D:\users\wingo\teaching\AssemblyLanguage\project\project_2015\ASM_201402_OpenGL_ASM_Project_ImageProcessing_Final\C_ASM.sln.old">
+</Event><Event ErrorLevel="2" Project="" Source="C_ASM.suo" Description="Error creating backup file: D:\users\wingo\teaching\AssemblyLanguage\project\project_2015\ASM_201402_OpenGL_ASM_Project_ImageProcessing_Final\C_ASM.suo.old">
+</Event><Event ErrorLevel="0" Project="C_ASM" Source="C_ASM\C_ASM.vcproj" Description="Converting project file 'D:\users\wingo\teaching\AssemblyLanguage\project\project_2015\ASM_201402_OpenGL_ASM_Project_ImageProcessing_Final\C_ASM\C_ASM.vcproj'.">
+</Event><Event ErrorLevel="1" Project="C_ASM" Source="C_ASM\C_ASM.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="C_ASM" Source="C_ASM\C_ASM.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="C_ASM" Source="C_ASM\C_ASM.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="C_ASM" Source="C_ASM\C_ASM.vcproj" Description="Done converting to new project file 'D:\users\wingo\teaching\AssemblyLanguage\project\project_2015\ASM_201402_OpenGL_ASM_Project_ImageProcessing_Final\C_ASM\C_ASM.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="C_ASM" Source="C_ASM\C_ASM.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="C_ASM.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="C_ASM.sln" Description="Converted">
+</Event></UpgradeLog>
