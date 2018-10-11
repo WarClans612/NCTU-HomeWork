@@ -1,0 +1,16 @@
+from: teamC@ghi.com
+to: jojojo@banana.com
+
+
+This is a winning notification. We wish to congratulate  you via this email.
+You have got the 
+prize of our company's anniversary lottery. To get the prize, we need your information for 
+sending the prize.
+Please click the following link and fill in the form. 
+
+http://winprize.com/congratulations/form
+
+
+Sincerely,
+
+team C

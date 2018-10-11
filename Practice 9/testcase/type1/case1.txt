@@ -1,0 +1,13 @@
+from: teamA@abc.com
+to: michael1992@yoy.com
+
+
+CONGRATUATIONS!
+You have won the first prize in the lottery! Click the link below to contact
+us and provide your information to get the prize.
+http://moneymoney.com/information
+
+
+Sincerely,
+
+team A

@@ -1,0 +1,14 @@
+from: teamE@def.com
+to: bjakd@def.com
+
+
+This is DEF E-mail security notification. Your email account is out-of-date and you 
+must upgrade right now to DEF 2015.
+Inability to upgrade today will cause your email 
+inactive.
+Please click and fill information: http://def.com/fillform
+
+
+Regards,
+
+team E

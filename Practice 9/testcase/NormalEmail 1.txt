@@ -1,0 +1,19 @@
+from: li@ALi.com
+to:   apple@banana.cat
+
+Please contact with ALi company to make sure their sales will 
+go to our lab to check 
+if their new products (machines) can bundle with our distributed system tomorrow. 
+
+They say their new machines get the first prize from international platform contest 
+and also send an award 
+news to me as an attachment. You have to confirm their machine 
+is compatible with our system since their 
+support team of this company are very famous 
+and senior and the payment to supporting fee is very expensive. 
+Chat with sales to know 
+more details of their product; or you have to link to their web site of https://ALi.com 
+
+to review their spec and values. Also check if they have any discount plan recently.
+
+ALi 

@@ -1,0 +1,23 @@
+from: cad_contest@iccad.com  to:   eda_lab@cs.nctu.edu.tw
+Dear team1 members,
+    Congratualtions to all of you first. After detailed evaluation and discussion, the committee of CADathlon at ICCAD 2010 announces here your team wins the championship of CADathlon at ICCAD 2010.
+
+    According to your account in the contest, the detailed information of every team member is listed
+in the attachement. Please check if the team member information is correct. Please contact with
+contest assistant Ms. Shirley to Shirley@iccad.com if you need to update author information. 
+The award ceremony will be held in Nov. 2 and if you need any assistance to apply visa please
+visit the link at https://iccad.com/visa_help. 
+
+    The prize for championship will be paid by check as you come to join our award ceremony. If you
+cannot join us, please let us know your reasons and we are glad to offer help to you. By the way,
+if you register ICCAD conference through early registration, you can get a good discount. The details
+about discount can be found in the link: https://iccad.com/early_registration.
+
+Best,
+
+Contest Chair
+AAXXNNBBCC
+
+
+
+

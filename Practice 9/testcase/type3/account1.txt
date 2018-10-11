@@ -1,0 +1,21 @@
+Subject line: Webmail alert
+from: hello@email.com
+
+Dear User,
+
+
+Your WebMail has exceeded the allocated monthly quota.
+
+To avoid account termination, kindly
+ click and sign in the link below to restore your account.
+
+http://www.hello.mail
+
+
+VIP has infinite quota, and the payment is jsut 50 US dollar each month.
+
+
+Click this link for upgrade to VIP account: http://www.hello.mail/VIP/GiveUsMoney
+
+
+Thank you.

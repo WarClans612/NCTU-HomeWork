@@ -1,0 +1,17 @@
+from: teamF@ghi.com
+to: plplew@appple.com
+
+
+Dear Customer,
+
+
+Thank you for making a payment via our service. We have received your payment of $5000 and 
+applied it to your account.
+For further information, please click the link to get attached 
+file for more details.
+http://paybill.com/customerID=1234
+
+
+Sincerely,
+
+team F
