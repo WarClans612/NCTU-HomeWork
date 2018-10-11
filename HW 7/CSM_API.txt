@@ -1,0 +1,81 @@
+﻿
+前題
+====
+
+- 所有 API function 成功的話會回 200 OK。
+
+- 錯誤的 request (e.g., json 個式不對/沒給必要的參數/參數型態不對) 會回傳 4xx，
+  並且在 response body 會有簡易說明。
+
+- 若拿到回傳值 5xx，這是 bug，請回報。
+
+
+Endpoint: http://IoTtalk Server的IP:9999   (IoTtalk Server的IP)
+
+create API function
+===================
+
+- HTTP message example::
+
+    POST /C860008BD249 HTTP/1.1         #C860008BD249是註冊時的address，通常使用Wi-Fi的MAC addr，因其具有唯一性
+    Content-Type: application/json
+    Content-Length: 193
+
+    {"profile": { "d_name": "D1",
+                  "dm_name": "MorSensor",
+                  "u_name": "yb",
+                  "is_sim": false,
+                  "df_list": ["Acceleration", "Temperature"]}}
+
+- profile dictionary 必要欄位:
+    - d_name: device name 
+    - dm_name: device model name
+    - u_name: yb
+    - is_sim: false
+    - df_list: 一個 list 裡面列出 device 擁有的 feature name (以前叫 features)。
+
+
+push API function
+=================
+
+- HTTP message example::
+
+    PUT /C860008BD249/Acceleration HTTP/1.1
+    Content-Type: application/json
+    
+    {"data": [0, 0, 9.8]}
+
+
+pull API function
+=================
+
+- HTTP message example::
+
+    GET /C860008BD249/Acceleration HTTP/1.1
+
+- HTTP response body::
+
+    {"samples": [["2015-10-16 21:07:17.005919", [0, 0, 9.8]], ["2015-10-16 21:04:39.997805", [0, 0, 9.8]]]}
+
+- return value::
+
+    [['2015-10-16 21:07:44.794336', [0, 0, 9.8]], ['2015-10-16 21:07:17.005919', [0, 0, 9.8]]]
+
+- ``[<timestamp>, <data>]`` 稱為一個 sample。
+
+- 會回傳兩筆 sample，前面的比較新。
+    - 沒資料時回傳空 list, e.g., ``{"samples": []}`` 。
+    - 只有一筆資料時回傳 1-elem list,
+      e.g., ``{"samples": [['2015-10-16 21:07:44.794336', [0, 0, 9.8]]]}`` 。
+
+
+delete API function
+===================
+
+- HTTP message example::
+
+    DELETE /C860008BD249 HTTP/1.1
+
+- 除了 HTTP method 改用 DELETE 外其他與以前一樣。
+
+

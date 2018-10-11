@@ -1,0 +1,30 @@
+Register:
+POST
+	http://IoTtalk_IP:9999/REG_DEMO
+
+	Header: Content-Type: application/json
+
+	Body:
+{"profile": { "d_name": "Test1",
+              "dm_name": "Dummy_Device",
+              "u_name": "yb",
+              "is_sim": false,
+              "df_list": ["Dummy_Sensor", "Dummy_Control"]}}
+
+Push:
+	PUT
+	http://IoTtalk_IP:9999/REG_DEMO/Dummy_Sensor
+
+	Header: Content-Type: application/json
+
+	Body:
+	{"data": [1]}
+
+
+Pull:
+	GET
+	http://IoTtalk_IP:9999/REG_DEMO/Dummy_Control
+
+Deregister:
+	Delete
+	http://IoTtalk_IP:9999/REG_DEMO
