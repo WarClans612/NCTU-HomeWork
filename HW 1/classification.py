@@ -172,3 +172,32 @@ plt.show()
 # for i in range(10):
 #     print('Accuracy of %5s : %2d %%' % (
 #         classes[i], 100 * class_correct[i] / class_total[i]))
+
+##########################################################################
+
+from torch.autograd import Variable
+from PIL import Image
+from os import listdir
+from os.path import isfile, join
+onlyfiles = [join('./testing', f) for f in listdir('./testing') if isfile(join('./testing', f))]
+
+def image_loader(loader, image_name):
+    """load image, returns cuda tensor"""
+    image = Image.open(image_name)
+    image = loader(image).float()
+    image = Variable(image, requires_grad=True)
+    if torch.cuda.is_available():
+        return image.cuda()
+    else:
+        return image
+
+with torch.no_grad():
+    images = []
+    for file_name in onlyfiles:
+        image = image_loader(transform, file_name)
+        images.append(image)
+    outputs = net(torch.stack(images))
+    _, predicted = torch.topk(outputs, 5, 1)
+
+    for index, topk in enumerate(predicted):
+        print(onlyfiles[index], ', '.join(classes[class_index] for class_index in topk))
