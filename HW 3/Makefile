@@ -11,23 +11,3 @@ all:
 	time for i in {1..$(count)}; do (mpiexec -n 1 -hostfile hostfile1 ./prime $(prim_size)); done >> result
 	time for i in {1..$(count)}; do (mpiexec -n 2 -hostfile hostfile2 ./prime $(prim_size)); done >> result
 	time for i in {1..$(count)}; do (mpiexec -n 3 -hostfile hostfile3 ./prime $(prim_size)); done >> result
-test_integrate:
-	echo "----------------------------------------------------------------"
-	mpicc integrate2.c -o integrate -lm
-	time for i in {1..$(count)}; do (mpiexec -n 1 -hostfile hostfile1 ./integrate $(inte_size)); done > result
-	time for i in {1..$(count)}; do (mpiexec -n 2 -hostfile hostfile2 ./integrate $(inte_size)); done > result
-	time for i in {1..$(count)}; do (mpiexec -n 3 -hostfile hostfile3 ./integrate $(inte_size)); done > result
-	mpicc integrate4.c -o integrate -lm
-	time for i in {1..$(count)}; do (mpiexec -n 1 -hostfile hostfile1 ./integrate $(inte_size)); done > result
-	time for i in {1..$(count)}; do (mpiexec -n 2 -hostfile hostfile2 ./integrate $(inte_size)); done > result
-	time for i in {1..$(count)}; do (mpiexec -n 3 -hostfile hostfile3 ./integrate $(inte_size)); done > result
-test_prime:
-	echo "----------------------------------------------------------------"	
-	mpicc prime2.c -o prime -lm
-	time for i in {1..$(count)}; do (mpiexec -n 1 -hostfile hostfile1 ./prime $(prim_size)); done > result
-	time for i in {1..$(count)}; do (mpiexec -n 2 -hostfile hostfile2 ./prime $(prim_size)); done > result
-	time for i in {1..$(count)}; do (mpiexec -n 3 -hostfile hostfile3 ./prime $(prim_size)); done > result
-	mpicc prime4.c -o prime -lm
-	time for i in {1..$(count)}; do (mpiexec -n 1 -hostfile hostfile1 ./prime $(prim_size)); done > result
-	time for i in {1..$(count)}; do (mpiexec -n 2 -hostfile hostfile2 ./prime $(prim_size)); done > result
-	time for i in {1..$(count)}; do (mpiexec -n 3 -hostfile hostfile3 ./prime $(prim_size)); done > result
